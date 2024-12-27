@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Expense Tracker</title>
+</head>
+
+<body>
+
+    <div class="mainbox">
+        <h2>Expense Tracker</h2>
+        <br>
+        <div class="container">
+            <form action="" id="expense-form" class="expense">
+                <input id="amount" type="number" placeholder="Enter the amount">
+                <input id="expense" type="text" placeholder="Enter the expense">
+                <button type="submit" id="addbtn">Add</button>
+            </form>
+            <h2>Expenses</h2>
+            <div class="items">
+                <ul id="list-items">
+                </ul>
+            </div>
+            <h3>Total ₹<span id="totalamt">0.0</span></h3>
+            <br>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
